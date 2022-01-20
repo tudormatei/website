@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Work Sans, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  background-image: url('background.png');
+  background-repeat: repeat-x;
+  height: 100vh;
+}
+
+
+.navbar{
+  background: #131313;
+  padding-top: 500rem;
+  z-index: 1000;
+  user-select: none;
+}
+
+.navbar .navbar-brand{
+  color: #131313;
+  font-size: 1.4rem;
+  font-weight: 800;
+  pointer-events: none;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a:active{
+  color: #df622c;
+}
+
+#navbarSupportedContent > a > button{
+  background: #df622c;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  border-color: #df622c;
+}
+
+.mid{
+  width: 100%;
+  height: 850px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.hero{
+  position: relative;
+}
+
+.mid .hero h2{
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+.mid .hero a{
+  background: #df622c;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+.mid .hero a:hover{
+  background: #fff;
+}
+
+.about{
+  width: 100%;
+  height: 1150px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.about .hero h2{
+  padding-bottom: 2rem;
+}
+
+.about .hero p{
+  width: 55%;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  padding-bottom: 3rem;
+}
+
+.about .hero a{
+  background: #000;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-bottom: 20rem;
+}
+
+.projects{
+  margin-bottom: 20rem;
+  width: 100%;
+  height: -100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.projects .card{
+  width: 20rem;
+  height: 25.5rem;
+  align-items: center;
+  box-shadow: 0 0 .75rem #383838;
+  border-color: #636363;
+}
+
+.projects .hero h2{
+  padding-bottom: 5rem;
+  border-top: 15rem solid;
+  border-color: transparent;
+}
+
+.cv h2{
+  padding-bottom: 2rem;
+  font-weight: 600;
+}
+
+.cv p{
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  padding-bottom: 2rem;
+}
+
+.contact{
+  width: 100%;
+  height: 720px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.contact .hero h2{
+  padding-bottom: 4rem;
+}
+
+.contact .hero p{
+  width: 55%;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+
+footer{
+  user-select: none;
+}
+
+.cv-image{
+  margin-top: 2.5rem;
+  box-shadow: 0 0 2rem #000000;
+
+}
+
+.cv p{
+  font-size: 2rem;
+}
+
+.cv .download-cv{
+  background: #000;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+footer .copyright a{
+  pointer-events: none;
+}
+
+.footer {
+  background: #fff; 
+}
+
+.footer .links{
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+}
