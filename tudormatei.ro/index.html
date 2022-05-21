@@ -1,200 +1,189 @@
 <!DOCTYPE html>
 <html>
-<head>
+
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <title>Tudor Matei | Student, Programmer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/png" href="static/favicon.png">
 
-    <!-- for python -->
-    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/bootstrap.css')}}"> -->
+    <link rel="shortcut icon" type="image/png" href="static/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600">
+
     <link rel="stylesheet" type="text/css" href="static/style.css">
     <link rel="stylesheet" type="text/css" href="static/css/bootstrap.css">
-
-    <!-- without python -->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">    
-</head>
-<body data-spy="scroll" data-target="#navbarSupportedContent"> 
-   <header>
-       <nav class="navbar navbar-expand-lg navbar-dark py-3 px-5 fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand text-light" href="#">Tudor</a>
-    <!-- <img class="navbar-brand" src="static/logo.png"> -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#cv">CV</a>
-        </li>
-      </ul>
-        <a href="#contact"><button class="btn btn-success text-dark" type="submit">Contact</button></a>
-    </div>
-  </div>
-</nav>
+  </head>
 
-<div class="mid" id="home">
-    <div class="hero text-center">
+  <body data-spy="scroll" data-target="#navbarSupportedContent"> 
+
+    <header>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark py-3 px-5 fixed-top">
+        <div class="container-fluid">
+
+          <a class="navbar-brand text-light" href="#">Tudor</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cv">CV</a>
+              </li>
+            </ul>
+            <a href="#contact"><button class="btn btn-success text-dark" type="submit">Contact</button></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- Home Page -->
+    <section id="home">
+      <div class="hero text-center">
         <h2 class="text-light display-4 font-weight-bold">Student, Programmer.</h2>
         <a class="text-dark" href="#about">Learn More</a>
-    </div>
-</div>
+      </div>
+    </section>
 
-   </header>     
+    <!-- About Page -->
+    <section id="about">
+      <div class="hero text-center">
+        <h2 class="text-light display-4 font-weight-bold">About</h2>
+        <p class="text-light mx-auto">Hi, I'm Tudor. I am currently expanding my knowledge on different fields like artificial intelligence, game development and software engineering.</p>
+        <a class="text-light" href="#cv">View CV</a>
+      </div>
+    </section>
 
-   <section class="about" id="about">
-       <div class="hero text-center">
-            <h2 class="text-light display-4 font-weight-bold">About</h2>
-            <!-- <p class="text-light mx-auto">Computer science enthusiast.</p>
-            <p class="text-light mx-auto">Passionate about artificial intelligence.</p>
-            <p class="text-light mx-auto">Interested in game development.</p>
-            <p class="text-light mx-auto">Eager to learn.</p>
-            <p class="text-light mx-auto">Able to work independently.</p>
-            <p class="text-light mx-auto">I like would to have the opportunity to start a career in this field.</p> -->
-            <p class="text-light mx-auto">Hi, I'm Tudor. I am currently expanding my knowledge on different fields like artificial intelligence, game development and software engineering.</p>
-            <a class="text-light" href="#cv">View CV</a>
-        </div>
-   </section>
+    <!-- Projects Page -->
+    <section id="projects">
+      <div class="hero text-center" id="projects">
+        <h2 class="text-dark display-4 font-weight-bold">Projects</h2>      
+        <div class="container d-flex justify-content-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-   <section class="projects">
-       <div class="hero text-center" id="projects">
-            <h2 class="text-dark display-4 font-weight-bold">Projects</h2>
-            
-    <div class="container d-flex justify-content-center">
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col mx-auto">
-          <div class="card">
-            <img src="static/pixelTrigger.png" class="card-img-top" alt="...">
+          <div class="col mx-auto">
+            <div class="card">
+              <img src="static/pixelTrigger.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-left">Pixel Trigger</h5>
                 <p class="card-text text-left text-dark">Pixel Trigger an indie game developed using Unity 3D and C# and it is available on android.</p>
-                <a href="https://github.com/tudormatei/pixel-trigger" class="btn btn-outline-secondary float-left">View</a>
+                <a href="https://github.com/tudormatei/pixel-trigger" target="_blank" class="btn btn-outline-secondary float-left">View</a>
               </div>
+            </div>
           </div>
-        </div>
 
-        <div class="col mx-auto">
-          <div class="card">
-            <img src="static/Slot Sinners.png" class="card-img-top" alt="...">
+          <div class="col mx-auto">
+            <div class="card">
+              <img src="static/Slot Sinners.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-left">Slot Sinners</h5>
                 <p class="card-text text-left text-dark">Slot Sinners is a game developed using Unity 3D for the devhacks hackathon in 2020.</p>
-                <a href="https://github.com/tudormatei/slot-sinners" class="btn btn-outline-secondary float-left">View</a>
+                <a href="https://github.com/tudormatei/slot-sinners" target="_blank" class="btn btn-outline-secondary float-left">View</a>
               </div>
+            </div>
           </div>
-        </div>
 
-        <div class="col mx-auto">
-          <div class="card">
-            <img src="static/chatbot.png" class="card-img-top" alt="...">
+          <div class="col mx-auto">
+            <div class="card">
+              <img src="static/chatbot.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-left">AI Chatbot</h5>
                 <p class="card-text text-left text-dark">I have made a chatbot using tensorflow 2.0 and python 3.</p>
-                <a href="https://github.com/tudormatei/tensorflow-chatbot" class="btn btn-outline-secondary float-left mr-2">View</a>
+                <a href="https://github.com/tudormatei/tensorflow-chatbot" target="_blank" class="btn btn-outline-secondary float-left mr-2">View</a>
                 <!-- <a href="http://chat.tudormatei.ro/" class="btn btn-outline-secondary float-left">Chat</a> -->
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col mx-auto">
-          <div class="card">
-            <img src="static/pixelCatcher.png" class="card-img-top" alt="...">
+          <div class="col mx-auto">
+            <div class="card">
+              <img src="static/pixelCatcher.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-left">Pixel Catcher</h5>
                 <p class="card-text text-left text-dark">Pixel Catcher is a mobile game developed with Unity Game Engine that is available on Google Play.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.TudorasterDevs.PixelCatcher" class="btn btn-outline-secondary float-left">View</a>
-              </div>
-          </div>
-        </div>
-        
-        <div class="col mx-auto">
-          <div class="card">
-            <img src="static/tfLogo.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-left">Cats and dogs classifier</h5>
-                <p class="card-text text-left text-dark">Developed a web application using flask for API calls and tensorflow for analysing the image.</p>
-                <a href="https://github.com/tudormatei/cats-vs-dog-classifier-backend" class="btn btn-outline-secondary float-left">View</a>
-              </div>
-          </div>
-        </div>
-
-        <div class="col mx-auto">
-          <div class="card">
-            <img src="static/javaFX.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-left">JavaFX Todo list</h5>
-                <p class="card-text text-left text-dark">Developed a to do list with javaFX and scenebuilder.</p>
-                <a href="https://github.com/tudormatei/javafx-todolist" class="btn btn-outline-secondary float-left">View</a>
-              </div>
-          </div>
-        </div>
-            
+                <a href="https://play.google.com/store/apps/details?id=com.TudorasterDevs.PixelCatcher" target="_blank" class="btn btn-outline-secondary float-left">View</a>
               </div>
             </div>
           </div>
+          
+          <div class="col mx-auto">
+            <div class="card">
+              <img src="static/tfLogo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-left">Cats and dogs classifier</h5>
+                <p class="card-text text-left text-dark">Developed a web application using flask for API calls and tensorflow for analysing the image.</p>
+                <a href="https://github.com/tudormatei/cats-vs-dog-classifier-backend" target="_blank" class="btn btn-outline-secondary float-left">View</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mx-auto">
+            <div class="card">
+              <img src="static/javaFX.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-left">JavaFX Todo list</h5>
+                <p class="card-text text-left text-dark">Developed a to do list with javaFX and scenebuilder.</p>
+                <a href="https://github.com/tudormatei/javafx-todolist" target="_blank" class="btn btn-outline-secondary float-left">View</a>
+              </div>
+            </div>
+          </div>
+              
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- CV Page -->
+    <section class="py-5" id="cv">
+      <div class="row align-items-center container my-5 mx-auto">
+        <div class="text col-lg-6 col-md-6 col-12 w-50">
+          <h2 class="text-dark display-4 font-weight-bold">CV</h2>
+          <p class="text-dark">I plan on investing in building new skills and gaining professional experience.</p>
+          <a class="text-light" id="download-cv" target="_blank" href="static/CV_image_pdf.pdf" target="_blank">View CV</a>
         </div>
-
-    <!-- here --></div>  
+        <div class="img col-lg-6 col-md-6 col-12 w-50">
+          <img class="img-fluid" id="cv-image" src="static/CV_image.png">
         </div>
-   </section>
+      </div>
+    </section>
 
-   <section class="cv py-5" id="cv">
-       <div class="row align-items-center container my-5 mx-auto">
-           <div class="text col-lg-6 col-md-6 col-12 w-50">
-               <h2 class="text-dark display-4 font-weight-bold">CV</h2>
-               <p class="text-dark">I plan on investing in building new skills and gaining professional experience.</p>
-               <a class="download-cv text-light" href="static/CV_image_pdf.pdf" target="_blank">View CV</a>
-           </div>
-           <div class="img col-lg-6 col-md-6 col-12 w-50">
-               <img class="cv-image img-fluid" src="static/CV_image.png">
-           </div>
-       </div>
-   </section>
+    <!-- Contact Page -->
+    <section class="contact">
+      <div class="hero text-center">
+        <h2 class="text-dark display-4 font-weight-bold">Contact</h2>
+        <p class="text-dark mx-auto">You can contact me by using the links below.</p>
+      </div>
+    </section>
 
-   <section class="contact">
-       <div class="hero text-center">
-            <h2 class="text-dark display-4 font-weight-bold">Contact</h2>
-            <p class="text-dark mx-auto">You can contact me by using the links below.</p>
-        </div>
-   </section>
+    <footer class="footer text-center text-white" id="contact">
+      <!-- Mail -->
+      <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="mailto:tudormatei010@gmail.com" role="button"
+      ><i class="bi bi-envelope"></i></a>
 
-   <footer class="footer text-center text-white" id="contact">
-      <div class="links">
-            <!-- Mail -->
-            <a class="btn btn-outline-dark btn-floating m-1" href="mailto:tudormatei010@gmail.com" role="button"
-            ><i class="bi bi-envelope"></i></a>
+      <!-- Linkedin -->
+      <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/tudor-matei-324269208/" role="button"
+      ><i class="bi bi-linkedin"></i></a>
 
-            <!-- Linkedin -->
-            <a class="btn btn-outline-dark btn-floating m-1" href="https://www.linkedin.com/in/tudor-matei-324269208/" role="button"
-            ><i class="bi bi-linkedin"></i></a>
-
-            <!-- Github -->
-            <a class="btn btn-outline-dark btn-floating m-1" href="https://github.com/tudormatei" role="button"
-            ><i class="bi bi-github" ></i></a></div>
+      <!-- Github -->
+      <a class="btn btn-outline-dark btn-floating m-1" target="_blank" href="https://github.com/tudormatei" role="button"
+      ><i class="bi bi-github" ></i></a></div>
       <div class="copyright text-center text-dark">
         &copy 2022
         <a class="text-dark">Tudor Matei</a>
       </div>
-</footer>
+    </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+  
+  </body>
 </html>

@@ -11,16 +11,23 @@ html{
 }
 
 body {
-  background: #fff;
   background-image: url('background.png');
   background-repeat: repeat-x;
   height: 100vh;
 }
 
+footer{
+  user-select: none;
+}
 
+.hero{
+  position: relative;
+}
+
+/* Navigation bar work */
 .navbar{
   background: #131313;
-  padding-top: 500rem;
+  /* padding-top: 500rem; */
   z-index: 1000;
   user-select: none;
 }
@@ -51,7 +58,8 @@ body {
   border-color: #df622c;
 }
 
-.mid{
+/* Home Page */
+#home{
   width: 100%;
   height: 850px;
   overflow: hidden;
@@ -62,16 +70,12 @@ body {
   text-align: center;
 }
 
-.hero{
-  position: relative;
-}
-
-.mid .hero h2{
+#home .hero h2{
   padding-top: 8rem;
   padding-bottom: 2rem;
 }
 
-.mid .hero a{
+#home .hero a{
   background: #df622c;
   font-weight: 600;
   padding: 0.6rem 1.4rem;
@@ -80,11 +84,12 @@ body {
   margin-top: 100px;
 }
 
-.mid .hero a:hover{
+#home .hero a:hover{
   background: #fff;
 }
 
-.about{
+/* About Page */
+#about{
   width: 100%;
   height: 1150px;
   overflow: hidden;
@@ -95,18 +100,18 @@ body {
   text-align: center;
 }
 
-.about .hero h2{
+#about .hero h2{
   padding-bottom: 2rem;
 }
 
-.about .hero p{
+#about .hero p{
   width: 55%;
   font-size: 2rem;
   letter-spacing: 0.5px;
   padding-bottom: 3rem;
 }
 
-.about .hero a{
+#about .hero a{
   background: #000;
   font-weight: 600;
   padding: 0.6rem 1.4rem;
@@ -115,7 +120,8 @@ body {
   margin-bottom: 20rem;
 }
 
-.projects{
+/* Projects Page */
+#projects{
   margin-bottom: 20rem;
   width: 100%;
   height: -100vw;
@@ -127,7 +133,7 @@ body {
   text-align: center;
 }
 
-.projects .card{
+#projects .card{
   width: 20rem;
   height: 25.5rem;
   align-items: center;
@@ -135,23 +141,43 @@ body {
   border-color: #636363;
 }
 
-.projects .hero h2{
+#projects .hero h2{
   padding-bottom: 5rem;
   border-top: 15rem solid;
   border-color: transparent;
 }
 
-.cv h2{
+/* CV Page */
+#cv h2{
   padding-bottom: 2rem;
   font-weight: 600;
 }
 
-.cv p{
+#cv p{
   font-size: 1.25rem;
   letter-spacing: 0.5px;
   padding-bottom: 2rem;
 }
 
+#cv-image{
+  margin-top: 2.5rem;
+  box-shadow: 0 0 2rem #000000;
+
+}
+
+#cv p{
+  font-size: 2rem;
+}
+
+#cv .download-cv{
+  background: #000;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+/* Contact Page */
 .contact{
   width: 100%;
   height: 720px;
@@ -171,28 +197,6 @@ body {
   width: 55%;
   font-size: 2rem;
   letter-spacing: 0.5px;
-}
-
-footer{
-  user-select: none;
-}
-
-.cv-image{
-  margin-top: 2.5rem;
-  box-shadow: 0 0 2rem #000000;
-
-}
-
-.cv p{
-  font-size: 2rem;
-}
-
-.cv .download-cv{
-  background: #000;
-  font-weight: 600;
-  padding: 0.6rem 1.4rem;
-  border-radius: 30px;
-  text-decoration: none;
 }
 
 footer .copyright a{
